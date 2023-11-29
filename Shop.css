@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-image: url(IMAGES/gg..jpeg);
+    background-position: 200%;
+  
+}
+
+@media only screen and (max-width: 760px) {
+    body{
+        font-size: 14px;
+    }
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+    list-style: none;
+}
+
+.clr{
+    clear: both;
+}
+
+#main-header{
+    background-color: white;
+    color: darkmagenta;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    float: left;
+    padding-left: 20px;  
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: transform 0.8s ease-in-out;
+}
+
+#navbar{
+    background-color: darkmagenta;
+    color: #fff;
+    padding: 10px;
+    justify-content: right;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+    align-items: right;
+}
+
+#navbar a:hover{
+    padding: 5px;
+    color: white;
+}
+
+.about{
+    padding: 20px;
+    line-height: 1.5em;
+    margin: 10px;
+    border: 2px  dotted rgb(237, 234, 240);
+    border-radius: 8px;
+}
+
+.about h1{
+    text-transform: uppercase;
+    margin: 10px;
+    color: white; 
+}
+
+.about h1:hover{
+    background-color: white;
+    width: 100px;
+    padding: 4px;
+    color: darkmagenta;
+    transition: transform 0.15s, ease-in-out;
+}
+.about p{
+    font-size: 18px;
+    color: #fff;
+   
+}
+
+#showcase{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#showcase h1{
+    margin: 10px;
+    color: white;
+}
+
+#showcase h1:hover{
+    background-color: white;
+    width: 130px;
+    padding: 4px;
+    color: darkmagenta;
+}
+
+.laptops{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.img-1{
+    transition: transform 0.5s;
+}
+
+.img-1:hover{
+  transform: scale(1.3);
+}
+
+
+.dirimage{
+    width: 320px;
+    height: 320px;
+}
+
+
+.Directors{
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-2{
+    margin-top: 100px;
+    margin: auto;
+    width: 980px;
+}
+#main-footer{
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left-footer{
+    margin-left: 300px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
